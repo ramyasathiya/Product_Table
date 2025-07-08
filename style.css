@@ -1,0 +1,33 @@
+body{
+    background-color:  #f9f9f9;
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%
+}
+thead{
+    background-color: #4CAF50;
+    color:white;
+    padding:auto;
+    text-align:center;
+    padding:12px;
+}
+tbody{
+    border: 1px solid #ddd;
+    padding:12px;
+}
+tr:nth-child(even) {
+  background-color: papayawhip;
+}
+
+tr:hover {
+  background-color: #d1e7fd;
+}
+caption {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
